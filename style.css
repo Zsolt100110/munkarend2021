@@ -1,0 +1,135 @@
+body {
+  background-color: #FFFFCC;
+}
+.tr, td {
+  border: 0px;
+  text-align: center;
+  color: #111111;
+}
+table {
+  border: 1px 1px 1px 1px;
+  background-color: #FFFF99;
+  display: inline-table;
+}
+
+#center {
+  color: black;
+  width: 34%;
+  height: 350px;
+}
+
+#month {
+  font-weight: bolder;
+  color: #000000;
+}
+
+#left {
+  color: black;
+  width: 33%;
+  height: 350px;
+  float: left;
+  clear: left;
+  
+}
+#right {
+  color: black;
+  width: 33%;
+  height: 350px;
+  float: right;
+}
+  
+@media (min-width: 220px) {
+  .tr, td {
+  border: 0px;
+  text-align: center;
+  color: #111111;
+}
+  
+  #center {
+  color: black;
+  width: 99%;
+  height: 200px;
+}
+
+#month {
+  font-weight: bolder;
+  color: #000000;
+}
+
+#left {
+  color: black;
+  width: 99%;
+  height: 200px;
+  float: left;
+  clear: left;
+  
+}
+#right {
+  color: black;
+  width: 99%;
+  height: 200px;
+  float: none;
+}
+  table {
+  border: 1px 1px 1px 1px;
+  background-color: #FFFF99;
+  display: inline-table;
+}
+
+}
+@media (min-width: 642px) {
+  
+.tr, td {
+  border: 0px;
+  text-align: center;
+  color: #111111;
+}
+table {
+  border: 1px 1px 1px 1px;
+  background-color: #FFFF99;
+  display: inline-table;
+}
+
+#center {
+  color: black;
+  width: 34%;
+  height: 350px;
+}
+
+#month {
+  font-weight: bolder;
+  color: #000000;
+}
+
+#left {
+  color: black;
+  width: 33%;
+  height: 350px;
+  float: left;
+  clear: left;
+  
+}
+#right {
+  color: black;
+  width: 33%;
+  height: 350px;
+  float: right;
+}
+}
+
+
+.nappal {
+  background-color: darkorange;
+}
+.ejjel {
+  background-color: dodgerblue;
+}
+a {
+  color: #FF0000;
+  font-weight: bolder;
+}
+.szabi {
+  color: #009900;
+  font-weight: bolder;
+}
+
